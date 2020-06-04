@@ -28,10 +28,21 @@ git clone https://github.com/jandiorio/study_group_screen
     - convert the list to a YAML string
     - write the YAML string to a file
 
+Your file should look like the example below (key order may vary):
+
+```yaml
+- company: WWT
+  email: jeff.andiorio@wwt.com
+  first_name: Jeff
+  github_username: jandiorio
+  last_name: Andiorio
+```
+
 > TIP: Validation will check the YAML filename components match your data for first_name, last_name and that the YAML data is a single element list with a dictionary of key/value pairs.
 
 4. Add/Commit/Push
-    - Add the new file and script `git commit -am "adds script and data file"`
-    - push changes to upstream repository `git push --set-upstream origin jeff_andiorio`
+    - Add python file - `git add *.py`
+    - Commit your changes -  `git commit -m "adds my python script"`
+    - Push changes to upstream repository `git push --set-upstream origin jeff_andiorio`
 
 > NOTE: These can all be in the same script.
