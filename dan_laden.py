@@ -5,7 +5,7 @@ list = [{
     "company": "WWT",
     "email": "daniel.ladem@wwt.com",
     "first_name": "Dan",
-    "github_username": "danielwwt",
+    "github_username": "daladen",
     "last_name": "Laden"
 }]
 
