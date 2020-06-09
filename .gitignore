@@ -1,3 +1,10 @@
+# Ignore Other files 
+.idea
+.vscode
+.flake8
+info_file.yaml
+README.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
