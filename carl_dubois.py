@@ -10,9 +10,10 @@ import yaml
 with open('carl.json') as json_file: 
     data = json.load(json_file)
     data = ast.literal_eval(json.dumps(data)) # remove pesky unicode
+    outfile = [data]
 
-with open('carl.yaml', "w+") as file:
-    doc = yaml.dump(data, file)
+with open(r'./carl.yaml', "w+") as file:
+    doc = yaml.dump(outfile, file)
 
 print 'First:', str(data['first_name'])
 print 'Last:', str(data['last_name'])
