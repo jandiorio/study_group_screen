@@ -1,4 +1,4 @@
-#doug_thomsen.py ver 1.2 (playing with VSCode)
+#doug_thomsen.py ver 1.3 (playing with VSCode)
 #create by Doug Thomsen
 #creates one list with one dictionary inside and prints to yaml file
 
