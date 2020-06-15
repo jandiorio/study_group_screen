@@ -12,8 +12,6 @@
 import yaml # pip install pyyaml for installation
 
 # create list with a dictionary 
-
-
 mydict = [{
     'first_name': 'Chris',
     'last_name': 'Hammond',
@@ -25,6 +23,8 @@ mydict = [{
 
 with open('chris_hammond.yaml','w') as output:
     yaml.dump(mydict,output)
+
+
 
 
 
