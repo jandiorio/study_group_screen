@@ -18,11 +18,11 @@ mydict = [{
     'company': 'WWT',
     'email': 'chris.hammond@wwt.com',
     'github_username': 'chrishammond'
-
 }]
 
 with open('chris_hammond.yaml','w') as output:
     yaml.dump(mydict,output)
+
 
 
 
