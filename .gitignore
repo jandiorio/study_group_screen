@@ -131,3 +131,6 @@ dmypy.json
 # my locals
 *local*
 *.vscode*
+
+# ignore my output
+*.yaml
