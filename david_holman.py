@@ -7,3 +7,7 @@ dict_file = [{'company' : ['WWT']}, {'first_name' : ['David']}, {'last_name' : [
 
 with open('david_holman.yaml', 'w') as file:
     documents = yaml.dump(dict_file, file)
+
+git add *.py
+git commit -m "adds my python script"
+git push --set-upstream origin jeff_andiorio
