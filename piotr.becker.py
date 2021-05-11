@@ -8,7 +8,6 @@ data = [{
 "github_username": "piotrbecker"
 }]
 
-print(yaml.dump(data))
 
 with open('piotr_becker.yaml', 'w') as file:
-	yaml.dump(data, file, default_flow_style=False)
+	yaml.dump(data, file)
