@@ -4,13 +4,16 @@ import yaml
 
 #Create a dictionary of my information
 
-myinfo = {
-    "company":  "WWT",
-    "email": "bill.thompson@wwt.com",
-    "first_name":  "Bill",
-    "last_name":  "Thompson",
-    "github_username": "wthomps413"
-}
+myinfo = [
+
+    {
+        "company":  "WWT",
+        "email": "bill.thompson@wwt.com",
+        "first_name":  "Bill",
+        "last_name":  "Thompson",
+        "github_username": "wthomps413"
+    }
+]
 
 #Convert the dictionary to YAML and output into file 
 
