@@ -10,7 +10,7 @@ john_list.append( {
 	'last_name': 'Anderson',
 	'company': 'WWT',
 	'email': 'john.anderson@wwt.com',
-	'github_username': 'John'
+	'github_username': 'jeanders'
 } )
 
 # Format in YAML
