@@ -43,6 +43,8 @@ Your file should look like the example below (key order may vary):
 4. Add/Commit/Push
     - Add python file - `git add *.py`
     - Commit your changes -  `git commit -m "adds my python script"`
-    - Push changes to upstream repository `git push --set-upstream origin jeff_andiorio`
+    - Push changes to upstream repository `git push --set-upstream origin your_branch_name`
+
+        > example:  `git push --set-upstream origin jeff_andiorio`
 
 > NOTE: These can all be in the same script.
